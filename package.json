@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines":{
+    "node":"16.17.0"
+  },
   "scripts": {
     "prebuild":"npm install --only=dev --dev",
     "production":"npm run prebuild && npm run babel && node ./dist/index.js",
